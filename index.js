@@ -44,7 +44,9 @@ textArea.addEventListener('input', (e)=>{
     })
 
     if(correct){
+        textArea.value = ''
         renderNewQuote()
+        
     }
     
 })
